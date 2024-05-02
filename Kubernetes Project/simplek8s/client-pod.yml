@@ -7,7 +7,7 @@ metadata:
 spec:
     containers:
         - name: complex_client
-          image: parveshkaushik/complex_client
+          image: anjalchristy/complex_client
           ports:
               - containerPort: 3000
           resources:
