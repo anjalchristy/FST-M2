@@ -21,9 +21,3 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' TBLPROPERTIES ("skip.header.line.c
  -- Exports to local directory
  INSERT OVERWRITE LOCAL DIRECTORY 'root/HiveOutput' ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
  SELECT * FROM employee;
-
-
-
-
-
-
