@@ -9,7 +9,7 @@ services:
     api:
         depends_on :
             - postgres_db
-        image: "amitamish/simple_blog_api" 
+        image: "anjalchristy/simple_blog_api" 
         build: 
           context: .
           dockerfile: Dockerfile.prod
